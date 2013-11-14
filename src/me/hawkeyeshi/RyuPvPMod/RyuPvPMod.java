@@ -125,6 +125,21 @@ public final class RyuPvPMod extends JavaPlugin{
                                         player.sendMessage(NO_PERMS);
                                     }
                                 }
+			}else if(cmd.getName().equalsIgnoreCase("ryusay"){
+				 if(args.length == 0)
+                        {
+                                player.sendMessage(ChatColor.DARK_RED + "Improper Syntax! /ryusay <message>");
+                                return true;
+                        }else if(args.length > 0){
+                                String message = new String();
+                                for(String s : args)
+                                {
+                                        message += (" " + s);
+                                 
+                                Bukkit.broadcastMessage(ChatColor.DARK_RED + "Ryu" + ChatColor.GRAY + "PvP-" + ChatColor.DARK_RED + sender.getName() + ChatColor.WHITE + message);
+                        }
+                }
+
 			}
 			return false;
 	}
