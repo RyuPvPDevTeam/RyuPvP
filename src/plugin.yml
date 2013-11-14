@@ -35,3 +35,8 @@ commands:
     usage: /requiem [player]
     permission: RyuPvPMod.requiem
       default: OP
+  ryusay:
+    description: A broadcasting command!
+    usage: /ryusay [message]
+    permission: RyuPvPMod.ryusay
+      default: OP
