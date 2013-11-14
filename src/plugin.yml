@@ -22,9 +22,9 @@ commands:
      usage: /boomdoom [player]
      permission: RyuPvPMod.boomdoom
        default: OP
-  wazzup:
-    description: What's Up? >:3
-      usage: /wazzup
+  ping:
+    description: Pong! >:3
+      usage: /ping
   hawk:
     description: See if someone can fly :D
     usage: /hawk [player]
